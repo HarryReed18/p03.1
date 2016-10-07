@@ -30,7 +30,7 @@ def mult_count(n):
 
     count = 0
     
-    for i in range(0, n+1, 1):
+    for i in range(0, n, 1):
 
         if i % 5 == 0 or i % 7 == 0 or i % 11 == 0:
 

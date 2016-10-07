@@ -29,4 +29,11 @@ def run_tests():
 # Edit this code
 def sq_sum(n):
 
+    sq_total = 0
 
+
+    for i in range(0, n+1, 1):
+        
+        sq_total = sq_total + i*i
+
+    print(sq_total)

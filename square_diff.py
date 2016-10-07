@@ -34,4 +34,16 @@ def run_tests():
 # Edit this code
 def sq_diff(n):
 
+    sq_total = 0
+    total = 0
+    
+    for i in range(0, n+1, 1):
+
+        total = total + i    
+        sq_total = sq_total + i*i
+
+    print(total*total - sq_total)
+
+        
+
 
